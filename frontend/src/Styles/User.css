@@ -1,0 +1,60 @@
+.userContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.userInfo{
+    width: 48%;
+    margin: 10px;
+    background-color: plum;
+    border-radius: 50px;
+    height: 200px;
+    display: flex;
+}
+
+.icon{
+    width:160px;
+    height:160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 80px;
+    background-color: azure;
+
+}
+
+.name{
+    margin: auto;
+    font-size: xx-large;
+    color: royalblue;
+}
+
+.post{
+    width: 98%;
+    margin: 10px;
+    background-color: plum;
+    height: 200px;
+    display: flex;
+}
+
+.content{
+    font-size: large;
+    color: royalblue;
+    margin: auto;
+    text-align: center;
+}
+
+.postIcon{
+    width:140px;
+    height:140px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 70px;
+    background-color: azure;
+
+}
+
+.delPost{
+    width:auto;
+    height:50px;
+    margin: 5px;
+}

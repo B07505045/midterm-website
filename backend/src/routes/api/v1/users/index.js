@@ -1,0 +1,14 @@
+import { Router } from "express";
+import { getAllUsers, createOneUser, getOneUser, createOnePost, getPost, login, logout, getLoginStatus, deleteOnePost, getAIImage} from "./handlers";
+const router = Router();
+router.get(`/`, getAllUsers);
+router.post(`/`, createOneUser);
+router.get(`/post`, getPost);
+router.post(`/post`, createOnePost);
+router.get(`/:id`, getOneUser);
+router.post(`/login`, login);
+router.post(`/logout`, logout);
+router.get(`/check-login`, getLoginStatus);
+router.delete(`/post/:id`, deleteOnePost);
+router.post('/AIImage', getAIImage);
+export default router;

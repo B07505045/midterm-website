@@ -1,0 +1,17 @@
+{
+  "name": "midterm-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Brian Liu <brian881011@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd backend && yarn start",
+    "build": "cd frontend && yarn build",
+    "install:all": "cd frontend && yarn install --production=false && cd ../backend && yarn"
+  },
+  "dependencies": {
+    "@cloudinary/react": "^1.11.2",
+    "@cloudinary/url-gen": "^1.10.0",
+    "formidable": "^2.1.1"
+  }
+}
